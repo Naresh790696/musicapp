@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <audio src="" id="audio"></audio>
+
+    <section class="section">
+        <div class="card">
+            <h3 class="heading">Music Player</h3>
+          <!-- info -->
+            <div class="songInfo">
+                <h5 class="songName">SongName</h5>
+                <h5 class="artistName">ArtistName</h5>
+            </div>
+            <!-- disk -->
+            <div class="disk"></div>
+
+            <!-- Seekbar -->
+            <div class="seekbarCont">
+                <span class="currentTime">00:00</span>
+                <input type="range" name="seekBar" id="seekBar" value="0">
+                <span class="songDuration">00:00</span>
+            </div>
+
+            <!-- controls -->
+            <div class="controls">
+                <button class="preBtn">V</button>
+                <button class="playBtn pause">
+                    <span></span>
+                    <span></span>
+                </button>
+                <button class="nexBtn">V</button>
+            </div>
+
+            <!-- Volume -->
+            <div class="volume">
+                <span>🔊</span>
+                <input type="range" name="volume" id="volume" value="100" >
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+    <script src="./js/database.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
